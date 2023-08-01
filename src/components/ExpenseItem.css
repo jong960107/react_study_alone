@@ -1,0 +1,38 @@
+.expense-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid blueviolet;
+    width: 100%;
+    background: lightcoral;
+}
+
+.expenseDate-wrapper{
+    width: 300px;
+    background-color: lightseagreen;
+    border: 3px solid lightseagreen;
+}
+
+
+.dateContainer{
+    font-size: 30px;
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.expense-item__description .expense-item__price{
+    font-size: 50px;
+    color: white;
+}
+
+
+@media(max-width:1220px){
+    .expense-item .expenseDate-wrapper .h2Title{
+        font-size: 10px;
+    }
+}

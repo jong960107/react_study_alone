@@ -1,0 +1,9 @@
+.expense-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 3px lightseagreen;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 30px;
+}
